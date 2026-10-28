@@ -1,0 +1,13 @@
+[package]
+name = "gramdao_ai"
+version = "0.1.0"
+edition = "2021"
+description = "GramDAO AI: Decentralized Village Budgeting, Village Council Resolution Audits and Rural Works"
+license = "Apache-2.0"
+
+[dependencies]
+candid = "0.10"
+serde = { version = "1.0", features = ["derive"] }
+
+[lib]
+crate-type = ["cdylib", "lib"]
